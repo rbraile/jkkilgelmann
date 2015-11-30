@@ -1,0 +1,332 @@
+/* CLEARFIX */
+
+.nav-menu:after,
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* fonts */
+body {
+    font-size: 16px;
+    font-family: 'robotoregular';
+}
+
+
+.site {
+    background: #fafafa;
+    max-width: inherit; 
+}
+
+header {
+    background: #0066b1;
+}
+
+.top {
+    height: 126px;
+    position: relative;
+    width: 930px;
+    margin: 0 auto;
+}
+
+.navbar {
+    background: #fafafa;
+}
+
+.logo {
+    background: url("../images/logo.png") no-repeat;
+    display: block;
+    height: 124px;
+    width: 200px;
+    position: absolute;
+    top: 16px;
+}
+
+.submenu {
+    float: right;
+    padding-top: 42px;
+    text-align: right;
+}
+
+#site-navigation {
+    width: 930px;
+    margin: 0 auto;
+}
+
+.menu-menu-principal-container {
+    float: right;
+    margin: 20px 0;
+}
+
+.submenu .ic-fb {
+    background: url("../images/ic-fb.png") no-repeat;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    margin-right: 8px; 
+}
+
+.submenu .ic-contacto {
+    background: url("../images/ic-contacto.png") no-repeat;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+}
+
+.submenu .trabaja-nosotros {
+    color: #fff;
+    font-size: 14px;
+    border: 1px solid #6ea8d3;
+    border-radius: 3px;
+    display: block;
+    background: url("../images/ic-trabaja-nosotros.png") 10px 4px no-repeat;
+    padding: 4px 14px 0 48px
+}
+
+.top h1,
+.top h2 {
+    color: #fff;
+}
+
+ul.nav-menu, div.nav-menu > ul {
+    padding: 0;
+
+}
+
+.nav-menu {
+    background: #f5f5f5;
+    margin: 20px 0;
+}
+
+.nav-menu li {
+    float: left;
+    background: #fff;
+    padding: 0 10px;
+}
+
+.nav-menu li:hover > a, 
+.nav-menu li a:hover, 
+.nav-menu li:focus > a, 
+.nav-menu li a:focus,
+.nav-menu li a {
+    font-size: 16px;
+    color: #475055;
+    height: 60px;
+    background: #fff;
+    line-height: 30px;
+}
+
+.nav-menu .current_page_item > a, 
+.nav-menu .current_page_ancestor > a, 
+.nav-menu .current-menu-item > a, 
+.nav-menu .current-menu-ancestor > a
+#primary-menu .current-page a,
+#primary-menu a:active,
+#primary-menu a:hover {
+    border-bottom: 10px solid #0066b1;
+    color: #0066b1;
+    background: #f5f5f5;
+}
+
+.nav-menu li:hover,
+.nav-menu li.current-menu-item {
+    background: #f5f5f5;
+}
+
+footer.site-footer {
+    background: #f5f5f5;
+    width: 930px;
+    margin: 0 auto;
+    text-align: left;
+    color: #494747;
+}
+
+footer div {
+    float: left;
+}
+
+footer h4 {
+    font-size: 14px;
+    font-family: 'robotobold';
+    margin: 0 0 22px; 
+}
+
+footer p {
+    font-size: 12px;
+    font-family: 'robotolight';
+    line-height: 15px;
+    margin: 0;
+}
+
+footer p > a {
+    text-decoration: underline;
+}
+
+footer .info-contacto {
+    width: 300px;
+    height: 242px;
+    background: #c5cdd1;
+    padding: 40px 0 0 28px;
+}
+
+footer .sugerencias {
+    padding: 40px 0 0 28px;
+    width: 300px;
+}
+
+.sugerencias .tyc {
+    margin-top: 30px; 
+}
+
+.nuestra-web {
+    width: 160px;
+    padding: 40px 0 0 28px;
+}
+
+.contactanos {
+    padding: 40px 0 0 28px;
+}
+
+.info-contacto p span {
+    display: inline-block;
+    background: url("../images/ic-footer.png") no-repeat;
+    width: 18px;
+    height: 18px;
+    margin-right: 20px;
+}
+
+.info-contacto p:nth-child(3) span {
+    margin: 15px 20px 15px 0;
+    background-position: 0 -34px; 
+}
+
+.info-contacto p:nth-child(4) span {
+    background-position: 0 -68px; 
+}
+
+.info-contacto h4 {
+    margin-left: 40px;
+}
+
+.contactanos .ic-fb {
+    background: url("../images/ic-fb-footer.png") no-repeat;
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    margin-right: 8px;
+}
+
+.contactanos .ic-contacto {
+    background: url("../images/ic-contacto-footer.png") no-repeat;
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+}
+
+
+/* HOME */
+
+.site-content {
+    width: 930px;
+    margin: 0 auto;
+}
+
+
+.slider-content {
+    float: left;
+    width: 604px;
+}
+
+.novedades {
+    background: #0066b1;
+    float: right;
+    width: 300px;
+    height: 444px;
+}
+
+.novedades p {
+    padding: 26px 0 26px 26px;
+    margin: 0;
+    color: #fff;
+    font-size: 14px;
+    line-height: 17px; 
+}
+
+.novedades p strong {
+    display: block;
+}
+
+.novedades ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;    
+}
+
+.novedades ul li {
+    border-bottom: 1px solid #fff;
+    padding: 24px;
+}
+
+.novedades ul li:nth-child(odd) {
+    background: #56ccc8;
+}
+
+.novedades ul li a {
+    color: #fff;
+    font-size: 15px;
+    font-family: 'robotolight';
+}
+
+.novedades ul li a:hover {
+    text-decoration: none;
+}
+
+.novedades .controls {
+    display: block;
+    position: relative;
+}
+
+.novedades .controls span {
+    display: inline-block;
+    position: absolute;
+    top: center;
+    right: 2px;
+    width: 18px;
+    height: 18px;
+    background: transparent url("../images/arrow-circle.png") no-repeat bottom left;
+}
+
+.content-central {
+    margin: 46px 0;    
+}
+
+.content-central > div {
+    width: 33%;
+    float: left;
+    height: 258px;
+    padding-top: 212px;
+    text-align: center;
+}
+
+.content-central > div p {
+    font-size: 16px;
+    font-family: 'robotomedium'; 
+}
+
+.content-central > div span {
+    display: block;
+}
+
+.content-central .ganadores {
+    background: url("../images/chango.jpg") no-repeat 0 27px;
+}
+
+.content-central .sucursales {
+    background: url("../images/sucursales.jpg") no-repeat 0 27px;
+}
+
+.content-central .tarjeta {
+    background: url("../images/cliente-amigo.jpg") no-repeat top left;
+}
+
