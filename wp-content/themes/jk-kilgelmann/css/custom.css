@@ -1,5 +1,6 @@
 /* CLEARFIX */
 
+.page-template-tarjeta .formulario .content-right:after,
 .nav-menu:after,
 .clearfix:after {
   content: "";
@@ -329,4 +330,318 @@ footer .sugerencias {
 .content-central .tarjeta {
     background: url("../images/cliente-amigo.jpg") no-repeat top left;
 }
+
+.page-template-tarjeta .content-central > div {
+    padding: 16px 44px 0 66px;
+    text-align: left;
+    position: relative;
+    background: #fff;
+    width: 300px;
+    height: 300px;
+}
+
+.page-template-tarjeta .content-central h4 {
+    margin: 0;
+    font-family: 'robotomedium';
+    font-size: 22px;
+    margin: 28px 0 20px 8px;
+}
+
+.page-template-tarjeta .content-form h4 {
+    margin: 0 0 28px 8px;
+}
+
+.page-template-tarjeta .content-central > div > span {
+    background: url("../images/ic-generals.jpg") no-repeat;
+    display: block;
+    position: absolute;
+    top: 34px;
+    left: 0;
+    width: 40px;
+    height: 40px;
+}
+
+.page-template-tarjeta .content-central > div p {
+    font-family: 'robotothin';
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.page-template-tarjeta .content-central div a {
+    display: block;
+    color: #ea6060;
+    margin-top: 10px;
+}
+
+.page-template-tarjeta .content-central .que span {
+    background-position: 0 -80px; 
+}
+
+.page-template-tarjeta .content-central .como span {
+    background-position: left -120px; 
+}
+
+.page-template-tarjeta .content-central .como {
+    margin: 0 15px;
+}
+
+.page-template-tarjeta .formulario {
+    background: #fff;
+    padding: 28px 0 0 20px;
+}
+
+.page-template-tarjeta .wpcf7-response-output {
+    width: 580px;
+}
+
+.page-template-tarjeta .formulario .content-right,
+.page-template-tarjeta .formulario .content-left {
+    padding-right: 20px;
+    float: left;
+    width: 288px;
+}
+
+.page-template-tarjeta .formulario input {
+    width: 100%;
+    font-family: 'robotolight';
+    font-size: 16px;
+    border: 1px solid #dde2e4;
+    margin-bottom: 18px;
+    border-radius: 3px;
+}
+
+.page-template-tarjeta .formulario .wpcf7-not-valid-tip {
+    font-family: 'robotothin';
+    font-size: 14px;
+    line-height: 1;
+}
+
+.page-template-tarjeta .formulario .enviar {
+    background: #ea6060;
+    border-radius: 5px;
+    border:none;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'robotomedium';
+    text-align: center;
+    width: auto;
+    padding: 8px 24px 7px;
+    float: right;
+}
+
+.page-template-tarjeta .content-form {
+    background: #fff;
+}
+
+.page-template-tarjeta .content-form .wpcf7 {
+    float: left;
+}
+
+.page-template-tarjeta .ver-sucursales {
+    float: right;
+    width: 300px;
+    background: #ea6060;
+    color: #fff;
+    padding: 38px 26px 0 66px;
+    position: relative;
+    height: 392px;
+}
+
+.page-template-tarjeta .ver-sucursales p {
+    font-size: 15px;
+    font-family: 'robotoregular';
+    margin-bottom: 60px;
+    padding-right:  14px;
+}
+
+.page-template-tarjeta .ver-sucursales h4 {
+    font-size: 22px;
+    font-family: 'robotomedium';
+    margin: 0 0 18px; 
+}
+
+.page-template-tarjeta .ver-sucursales a {
+    font-size: 12px;
+    font-family: 'robotomedium';
+    border: 1px solid #fff;
+    border-radius: 3px;
+    color: #fff;
+    padding: 9px 40px 6px; 
+}
+
+.page-template-tarjeta .ver-sucursales span {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: url("../images/ic-generals.jpg") no-repeat 0 -40px;
+    position: absolute;
+    top: 34px;
+    left: 0;
+}
+
+
+/* la empresa */
+
+.page-template-empresa .top-content {
+    margin-bottom: 25px;
+}
+
+.page-template-empresa .content-general h1 {
+    font-size: 28px;
+}
+
+.page-template-empresa .content-right {
+    float: right;
+    width: 298px;
+}
+
+.page-template-empresa .content-left {
+    float: left;
+    width: 612px;
+    background: #fff;
+    padding: 12px 34px 32px 65px
+}
+
+.page-template-empresa .content-left h1 {
+    font-size: 24px;
+    font-family: 'robotomedium';
+    color: #475055;
+}
+
+.page-template-empresa .content-left P {
+    font-size: 15px;
+    font-family: 'robotothin';
+    color: #475055;   
+}
+
+.content-right .jk-cercano {
+    background: #0066b1;
+    position: relative;
+    padding: 30px 0 30px 64px;
+    margin-bottom: 10px;
+}
+
+.content-right .jk-cercano span {
+    background: url("../images/ic-generals.jpg") no-repeat 0 -200px;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 34px;
+    left: 0;
+}
+
+.content-right .jk-cercano a {
+    color: #fff; 
+    font-size: 24px;
+    font-family: 'robotomedium';
+    line-height: 1;
+}
+
+.content-right .jk-cercano a:hover {
+    text-decoration: none;
+}
+
+.content-right .jk-cercano a span {
+    background: url("../images/arrows-white.png") left bottom no-repeat;
+    width: 18px;
+    height: 18px;
+    position: inherit;
+    margin-left: 14px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.banner-laboral {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.laboral {
+    background: #ea6060;
+    color: #fff;
+    padding: 34px 30px 34px 62px;
+    position: relative;
+}
+
+.laboral p {
+    margin: 0;
+}
+
+.laboral h4 {
+    font-family: 'robotomedium';
+    font-size: 24px;
+    margin: 0 0 16px 0;
+}
+
+.laboral h4 span {
+    display: block;
+}
+
+.laboral .fondo {
+    background: url('../images/ic-generals.jpg') no-repeat 0 -160px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 40px;
+    height: 40px; 
+}
+
+.laboral .arrow {
+    background: url('../images/arrows-white.png') no-repeat left top;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    display: block;
+    width: 18px;
+    height: 18px; 
+}
+
+.formuario-laboral p {
+    margin: 0;
+}
+
+.formuario-laboral input {
+    width: 100%;
+    font-family: 'robotolight';
+    font-size: 16px;
+    border: 1px solid #dde2e4;
+    margin-bottom: 18px;
+    border-radius: 3px;
+}
+
+.formuario-laboral .wpcf7-not-valid-tip {
+    font-family: 'robotothin';
+    font-size: 14px;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+.formuario-laboral {
+    background: #fff;
+    padding: 20px 20px 10px;
+}
+
+.formuario-laboral h4 {
+    color: #475055;
+    margin: 0 0 20px 0;
+    padding: 26px 20px 10px;
+    font-size: 18px;
+    font-family: 'robotomedium';
+}
+
+.formuario-laboral input.enviar {
+    background: #ea6060;
+    border-radius: 5px;
+    border:none;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'robotomedium';
+    text-align: center;
+    width: auto;
+    padding: 8px 24px 7px;
+    float: right;
+}
+
+
 
