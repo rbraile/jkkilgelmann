@@ -569,3 +569,35 @@ function estilos_theme() {
     wp_enqueue_style( 'fuentes' );
 }
 add_action('wp_print_styles', 'estilos_theme');
+
+function custom_excerpt($new_length = 20, $new_more = '...') {
+  add_filter('excerpt_length', function () use ($new_length) {
+    return $new_length;
+  }, 999);
+  add_filter('excerpt_more', function () use ($new_more) {
+    return $new_more;
+  });
+  $output = get_the_excerpt();
+  $output = apply_filters('wptexturize', $output);
+  $output = apply_filters('convert_chars', $output);
+  return $output;
+}
+
+function show_category_posts( $atts ){
+        extract(shortcode_atts(array(
+                'cat'=> ''
+        ), $atts));
+        query_posts('cat='.$cat.'&orderby=date&order=ASC&posts_per_page=4');
+        if ( have_posts() ){
+                $content = '';
+                while ( have_posts() ){
+                    the_post();
+                    $postID = get_the_ID();
+                    $content .= '<li><a href="'. get_permalink() .'">' . custom_excerpt(21, '') . '<span class="controls">' . get_post_meta($postID, "fecha_novedad", true) . '<span></span></span></a></li>';
+                  }
+        }
+        //Reset query
+        wp_reset_query();
+        return $content;
+}
+add_shortcode('mostrar_cat', 'show_category_posts');

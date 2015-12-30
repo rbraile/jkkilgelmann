@@ -250,7 +250,7 @@ footer .sugerencias {
     padding: 26px 0 26px 26px;
     margin: 0;
     color: #fff;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 17px; 
 }
 
@@ -262,11 +262,13 @@ footer .sugerencias {
     list-style: none;
     margin: 0;
     padding: 0;    
+    height: 358px;
+    overflow-y: auto; 
 }
 
 .novedades ul li {
     border-bottom: 1px solid #fff;
-    padding: 24px;
+    padding: 18px 24px;
 }
 
 .novedades ul li:nth-child(odd) {
@@ -394,6 +396,8 @@ footer .sugerencias {
     width: 580px;
 }
 
+.contacto-formulario .content-right,
+.contacto-formulario .content-left ,
 .page-template-tarjeta .formulario .content-right,
 .page-template-tarjeta .formulario .content-left {
     padding-right: 20px;
@@ -401,6 +405,7 @@ footer .sugerencias {
     width: 288px;
 }
 
+.contacto-formulario input,
 .page-template-tarjeta .formulario input {
     width: 100%;
     font-family: 'robotolight';
@@ -410,12 +415,14 @@ footer .sugerencias {
     border-radius: 3px;
 }
 
+.contacto-formulario .wpcf7-not-valid-tip,
 .page-template-tarjeta .formulario .wpcf7-not-valid-tip {
     font-family: 'robotothin';
     font-size: 14px;
     line-height: 1;
 }
 
+.contacto-formulario .enviar,
 .page-template-tarjeta .formulario .enviar {
     background: #ea6060;
     border-radius: 5px;
@@ -429,14 +436,17 @@ footer .sugerencias {
     float: right;
 }
 
+.contacto-formulario,
 .page-template-tarjeta .content-form {
     background: #fff;
 }
 
+.contacto-formulario .wpcf7,
 .page-template-tarjeta .content-form .wpcf7 {
     float: left;
 }
 
+.contacto-box .ver-sucursales,
 .page-template-tarjeta .ver-sucursales {
     float: right;
     width: 300px;
@@ -447,6 +457,7 @@ footer .sugerencias {
     height: 392px;
 }
 
+.contacto-box .ver-sucursales p,
 .page-template-tarjeta .ver-sucursales p {
     font-size: 15px;
     font-family: 'robotoregular';
@@ -454,12 +465,14 @@ footer .sugerencias {
     padding-right:  14px;
 }
 
+.contacto-box .ver-sucursales h4,
 .page-template-tarjeta .ver-sucursales h4 {
     font-size: 22px;
     font-family: 'robotomedium';
     margin: 0 0 18px; 
 }
 
+.contacto-box .ver-sucursales a,
 .page-template-tarjeta .ver-sucursales a {
     font-size: 12px;
     font-family: 'robotomedium';
@@ -469,6 +482,7 @@ footer .sugerencias {
     padding: 9px 40px 6px; 
 }
 
+.contacto-box .ver-sucursales span,
 .page-template-tarjeta .ver-sucursales span {
     display: block;
     width: 40px;
@@ -643,5 +657,143 @@ footer .sugerencias {
     float: right;
 }
 
+/* pagina de  contacto */
+
+
+.contacto-central {
+    padding-bottom: 20px;  
+}
+
+.contacto-central > div {
+    background: #fff;
+    float: left;
+    height: 300px;
+    width: 300px;
+    padding: 36px 10px 0 66px;
+    margin: 20px 15px 0 0;
+}
+.contacto-central div:nth-child(2) {
+    margin-right: 0;
+}
+
+.contacto-central .casa-central {
+    position: relative;
+}
+
+.contacto-central > div .ic {
+    position: absolute;
+    display: block;
+    background: url("../images/ic-generals.jpg") no-repeat bottom left;
+    height: 40px;
+    width: 40px;
+    left: 0;      
+}
+
+.contacto-central .ponete-contacto {
+    position: relative;
+}
+
+.contacto-central .ponete-contacto .ic {
+    position: absolute;
+    display: block;
+    background: url("../images/ic-generals.jpg") no-repeat 0 -120px;
+    height: 40px;
+    width: 40px;
+    left: 0;      
+}
+
+.contacto-central h4 {
+    color: #0066b1;
+    font-family: 'robotomedium';
+    font-size: 16px; 
+    margin: 0;
+}
+
+.contacto-central p {
+    font-size: 15px;
+    color: #475055;
+    margin: 0;
+    padding: 0;
+    font-family: 'robotothin'; 
+}
+
+.contacto-central p strong {
+    font-family: 'robotomedium';
+}   
+
+.contacto-central .jk-cercano {
+    position: relative;
+    background: #0066b1;                
+    margin-right: 0;
+    float: right;
+    color: #fff;
+    padding: 35px 25px 0 66px;
+}
+
+.contacto-central .jk-cercano h3 {
+    font-size: 24px;
+    font-family: 'robotomedium';
+    font-weight: normal;
+    color: #fff;
+    margin: 0;
+}
+
+.contacto-central .jk-cercano p {
+    font-size: 15px;
+    font-family: 'robotoregular';
+    color: #fff;
+}
+
+.contacto-central .jk-cercano .ic {
+    background-position: 0 -200px;
+}
+
+.contacto-central .jk-cercano a {
+    display: block;
+    font-family: 'robotomedium';
+    font-size: 15px;
+    color: #fff;
+    text-decoration: underline;
+    margin-top: 2px;
+}
+
+.contacto-central .jk-cercano a span {
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    background: url("../images/arrows-white.png") no-repeat left bottom; 
+    vertical-align: middle;
+}
+
+.contacto-box .ver-sucursales {
+    height: 390px;
+}
+
+.contacto-box .ver-sucursales a,
+.contacto-box .ver-sucursales h4,
+.contacto-box .ver-sucursales p {
+    color: #fff;
+}
+
+.contacto-box .ver-sucursales p {
+    margin: 0;
+}
+
+.contacto-box .ver-sucursales span {
+    background-position: 0 -160px;
+}
+
+.contacto-formulario textarea {
+    border: 1px solid #dde2e4;
+    border-radius: 3px;
+    font-family: "robotolight";
+    font-size: 16px;
+    margin-bottom: 18px;
+    width: 100%;
+}
+
+.contacto-formulario .content-right {
+    padding-right: 0;
+}
 
 

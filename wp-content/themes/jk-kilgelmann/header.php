@@ -38,9 +38,9 @@
                  
                 </a>
                 <div class="submenu">
-                    <a href="#" class="ic-fb"></a>
-                    <a href="#" class="ic-contacto"></a>
-                    <a href="#" class="trabaja-nosotros">TRABAJÁ CON NOSOTROS</a>
+                    <a target="_blank" href="https://www.facebook.com/JK-Kilgelmann-Supermercados-SRL" class="ic-fb"></a>
+                    <a href="mailto:rrhh@jkkilgelmann.com.ar" class="ic-contacto"></a>
+                    <a href="/la-empresa" class="trabaja-nosotros">TRABAJÁ CON NOSOTROS</a>
                 </div>
             </div>
 

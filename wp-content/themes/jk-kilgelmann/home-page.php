@@ -13,20 +13,7 @@ get_header(); ?>
                 <div class="novedades">
                     <p>Novedades de <strong>JK KILGELMANN SUPERMERCADOS</strong></p>
                     <ul>
-                        <li>
-                            <a href="#">
-                                15% con tus tarjetas de BBVA Frances promoción válida desde 01/06/2015 
-                                hasta 01/06/2015 en el caso de compras con tarjetas visa debito
-                                <span class="controls">2/10/2015 <span></span></span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                15% con tus tarjetas de BBVA Frances promoción válida desde 01/06/2015 
-                                hasta 01/06/2015 en el caso de compras con tarjetas visa debito
-                                <span class="controls">2/10/2015 <span></span></span>
-                            </a>
-                        </li>
+                        <?php echo do_shortcode("[mostrar_cat cat='3']"); ?>
                     </ul>
                 </div>
             </div><!-- top -->
